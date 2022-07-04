@@ -13,9 +13,9 @@ Object.defineProperty(person, 'fullName', {
             return [Array(this.firstName), Array(this.lastName)]; 
         },
     set: function(newFullName) {
-  			let arr = newFullName.split(' ');
-  			this.firstName = arr[0]; 
-            this.lastName = arr[1]; 
+            let arr = newFullName.split(' ');
+            this.firstName = arr[0]; 
+            this.lastName = arr[1];                            
         },
 });
 

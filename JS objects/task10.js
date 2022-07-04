@@ -8,8 +8,8 @@ let myObject = {
   
 // call of function
 function deleteNonNumbers(obj){
-	for(key in obj){
-  	if(typeof(obj[key]) !== 'number'){
+  for(key in obj){
+    if(typeof(obj[key]) !== 'number'){
     	delete obj[key];
     }
   }
